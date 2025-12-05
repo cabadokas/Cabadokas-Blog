@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cabadokas | Women's Health & Beauty Secrets</title>
+    <meta name="description" content="Dedicated to women's health, beauty, weight loss, and nutrition. Linking global affiliates and social communities." />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                50: '#fdf2f8',
+                100: '#fce7f3',
+                200: '#fbcfe8',
+                300: '#f9a8d4',
+                400: '#f472b6',
+                500: '#ec4899',
+                600: '#db2777',
+                700: '#be185d',
+                800: '#9d174d',
+                900: '#831843',
+              },
+              secondary: {
+                50: '#f5f3ff',
+                100: '#ede9fe',
+                200: '#ddd6fe',
+                300: '#c4b5fd',
+                400: '#a78bfa',
+                500: '#8b5cf6',
+                600: '#7c3aed',
+              },
+            },
+            animation: {
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Analytics (Simulated/Placeholder based on ID provided) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LKDDR6GQYH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-LKDDR6GQYH');
+    </script>
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://aistudiocdn.com/react@^19.2.1/",
+        "react": "https://aistudiocdn.com/react@^19.2.1",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/"
+      }
+    }
+    </script>
+    <style>
+      /* Hide Google Translate Top Banner */
+      .goog-te-banner-frame.skiptranslate {
+          display: none !important;
+      } 
+      body {
+          top: 0px !important; 
+      }
+      /* Custom Styling for the Google Translate Dropdown */
+      #google_translate_element .goog-te-gadget-simple {
+        background-color: transparent !important;
+        border: none !important;
+        padding: 0 !important;
+        font-family: inherit !important;
+      }
+      #google_translate_element .goog-te-gadget-simple .goog-te-menu-value span {
+        color: #db2777 !important; /* Pink 600 */
+        font-weight: bold;
+      }
+      #google_translate_element .goog-te-gadget-simple .goog-te-menu-value span:hover {
+        color: #ec4899 !important; /* Pink 500 */
+      }
+      /* Hide the 'Powered by Google' branding if desired, though often required by TOS, we can just style it nicely */
+      .goog-te-gadget-icon {
+        display: none !important;
+      }
+      /* Dark mode support for translate text */
+      .dark #google_translate_element .goog-te-gadget-simple .goog-te-menu-value span {
+        color: #f472b6 !important; /* Pink 400 */
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-900 transition-colors duration-300">
+    <div id="root"></div>
+  </body>
+</html>
